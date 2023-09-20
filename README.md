@@ -21,10 +21,14 @@ cd backend
 pip install praat-parselmouth
 ```
 
+Note: you may have to install other Python libraries using `pip` if you don't have them already (e.g. scipy, numpy, etc.). Syntax: `pip install [library name]`
+
 ...then run the server:
 ```bash
 python server.py
 ```
+
+FOR ELAINE: To run the audio analysis model, run `python speech_analysis.py`. If you haven't already, run `cd backend` to be in that folder.
 
 Navigate to [localhost:5000](http://localhost:5000). You should see your app running.
 

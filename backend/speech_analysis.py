@@ -42,4 +42,4 @@ def analyze_speech(wav_filename):
     }
 
 
-# print(analyze_speech("recordings/recording-1.wav"))
+print(analyze_speech("recordings/recording-1.wav")) ## TODO: replace file name to analyze other files
